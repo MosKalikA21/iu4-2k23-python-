@@ -26,7 +26,7 @@ def split_string(input_string, max_length):
     for word in words:
         if len(current_substring) + len(''.join(word)) > max_length:
             if not current_substring:
-                raise Exception(f'Невозможно разделить строку с заданными параметрами: {input_string}')
+                raise Exception(f'Невозможно  разделить строку с заданными параметрами: {input_string}')
             substrings.append(current_substring)
             current_substring = ""
         current_substring += ''.join(word)
