@@ -8,12 +8,12 @@ typedef struct {
     int y;
 } Point;
 
-int sum(int a, int b);
+int sum(int a1, int b1);
 
 double average(double* array, int size);
 
-inline int max(int a, int b) {
-    int result = a > b ? a : b;
+inline int max(int a1, int b1) {
+    int result = a1 > b1 ? a1 : b1;
     return result;
 }
 
